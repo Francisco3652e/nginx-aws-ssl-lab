@@ -71,7 +71,7 @@ ssh servidor-nginx
 | Instancia EC2 en ejecución | ![EC2](screenshots/01-ec2-instancia-running.png) |
 | Nginx instalado y funcionando | ![Nginx](screenshots/02-nginx-instalado.png) |
 | Creando registros DNS en Route 53 | ![Route53](screenshots/03-route53-dns-records.png) |
-| Registros DNS en Route 53 | | ![Route53](screenshots/03.1-registros-creados.png) |
+| Registros DNS en Route 53 | ![Route53](screenshots/03.1-registros-creados.png) |
 | Enlaces simbólicos en `sites-enabled` | ![Symlinks](screenshots/04-enlaces-simbolicos-sites-enabled.png) |
 | Sitio funcionando por HTTP | ![HTTP](screenshots/05-sitio-http-funcionando.png) |
 | Sitio funcionando por HTTPS | ![HTTPS](screenshots/06-sitio-https-funcionando.png) |
