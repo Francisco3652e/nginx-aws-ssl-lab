@@ -68,7 +68,7 @@ ssh servidor-nginx
 
 | Paso | Captura |
 |---|---|
-| Instancia EC2 en ejecución | ![EC2](./screenshots/01-ec2-instancia-running.png) |
+| Instancia EC2 en ejecución | ![EC2](/screenshots/01-ec2-instancia-running.png) |
 | Nginx instalado y funcionando | ![Nginx](\screenshots/02-nginx-instalado.png) |
 | Creando registros DNS en Route 53 | ![Route53](\screenshots/03-route53-dns-records.png) |
 | Registros DNS en Route 53 | ![Route53](\screenshots/03.1-registros-creados.png) |
