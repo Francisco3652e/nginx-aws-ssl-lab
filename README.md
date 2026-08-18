@@ -68,16 +68,16 @@ ssh servidor-nginx
 
 | Paso | Captura |
 |---|---|
-| Instancia EC2 en ejecución | ![EC2](\nginx-aws-ssl-lab\screenshots/01-ec2-instancia-running.png) |
-| Nginx instalado y funcionando | ![Nginx](\nginx-aws-ssl-lab\screenshots/02-nginx-instalado.png) |
-| Creando registros DNS en Route 53 | ![Route53](\nginx-aws-ssl-lab\screenshots/03-route53-dns-records.png) |
-| Registros DNS en Route 53 | ![Route53](\nginx-aws-ssl-lab\screenshots/03.1-registros-creados.png) |
-| Enlaces simbólicos en `sites-enabled` | ![Symlinks](\nginx-aws-ssl-lab\screenshots/04-enlaces-simbolicos-sites-enabled.png) |
-| Sitio funcionando por HTTP | ![HTTP](\nginx-aws-ssl-lab\screenshots/05-sitio-http-funcionando.png) |
-| Sitio funcionando por HTTPS | ![HTTPS](\nginx-aws-ssl-lab\screenshots/06-sitio-https-funcionando.png) |
-| Sitio  HTTPS desde Telefono  | ![HTTPS](\nginx-aws-ssl-lab\screenshots/06.1-prueba-de-seguridad.jpg) |
-| Renovación automática probada (`--dry-run`) | ![Dry run](\nginx-aws-ssl-lab\screenshots/07-certbot-dry-run-exitoso.png) |
-| Próxima renovación programada | ![Renovación](\nginx-aws-ssl-lab\screenshots/08-certbot-renovacion-programada.png) |
+| Instancia EC2 en ejecución | ![EC2](nginx-aws-ssl-lab\screenshots/01-ec2-instancia-running.png) |
+| Nginx instalado y funcionando | ![Nginx](nginx-aws-ssl-lab\screenshots/02-nginx-instalado.png) |
+| Creando registros DNS en Route 53 | ![Route53](nginx-aws-ssl-lab\screenshots/03-route53-dns-records.png) |
+| Registros DNS en Route 53 | ![Route53](nginx-aws-ssl-lab\screenshots/03.1-registros-creados.png) |
+| Enlaces simbólicos en `sites-enabled` | ![Symlinks](nginx-aws-ssl-lab\screenshots/04-enlaces-simbolicos-sites-enabled.png) |
+| Sitio funcionando por HTTP | ![HTTP](nginx-aws-ssl-lab\screenshots/05-sitio-http-funcionando.png) |
+| Sitio funcionando por HTTPS | ![HTTPS](nginx-aws-ssl-lab\screenshots/06-sitio-https-funcionando.png) |
+| Sitio  HTTPS desde Telefono  | ![HTTPS](nginx-aws-ssl-lab\screenshots/06.1-prueba-de-seguridad.jpg) |
+| Renovación automática probada (`--dry-run`) | ![Dry run](nginx-aws-ssl-lab\screenshots/07-certbot-dry-run-exitoso.png) |
+| Próxima renovación programada | ![Renovación](nginx-aws-ssl-lab\screenshots/08-certbot-renovacion-programada.png) |
 
 ## Tecnologías utilizadas
 
