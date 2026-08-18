@@ -1,0 +1,5 @@
+Host ubuntu
+    HostName 3.80.155.228
+    User ubuntu
+    IdentityFile /home/fran/Linux-nginx-server.pem
+
