@@ -15,6 +15,11 @@ Usuario → DNS (Route 53) → Nginx (EC2 / Ubuntu)
 Let's Encrypt → Certbot → Certificados SSL/TLS → Nginx
 ```
 
+## Tecnologías utilizadas
+
+`AWS EC2` · `AWS Route 53` · `Nginx` · `Certbot / Let's Encrypt` · `SSH` · `Linux · Ubuntu` · `Systemd Timers` · `DNS (A Record)` · `SSL/TLS`
+
+
 ## Qué se hizo
 
 1. **Provisioning:** instancia EC2 (Ubuntu Server) con acceso SSH restringido a IP propia, puertos 80/443 habilitados y llave privada descargada.
@@ -78,10 +83,6 @@ ssh servidor-nginx
 | Sitio  HTTPS desde Telefono  | ![HTTPS](./nginx-aws-ssl-lab/screenshots/06.1-prueba-de-seguridad.jpg) |
 | Renovación automática probada (`--dry-run`) | ![Dry run](./nginx-aws-ssl-lab/screenshots/07-certbot-dry-run-exitoso.png) |
 | Próxima renovación programada | ![Renovación](./nginx-aws-ssl-lab/screenshots/08-certbot-renovacion-programada.png) |
-
-## Tecnologías utilizadas
-
-`AWS EC2` · `AWS Route 53` · `Nginx` · `Certbot / Let's Encrypt` · `SSH` · `Linux · Ubuntu` · `Systemd Timers` · `DNS (A Record)` · `SSL/TLS`
 
 ## Cómo funciona Let's Encrypt + Certbot
 
